@@ -69,5 +69,5 @@ int Recording::Unpack(IOBuffer & Buffer)
 void Recording::Print(ostream & stream, char * label) const
 {
 	stream << Label << '|' << IdNum << '|' << Title << '|'
-		<< Composer << '|' << Artist;
+		<< Composer << '|' << Artist << endl;
 }

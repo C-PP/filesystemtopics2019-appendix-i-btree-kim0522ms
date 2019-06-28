@@ -31,6 +31,7 @@ public:
 	int NumberOfFields() const; // return number of defined fields
 	int Init(int maxFields);
 	int Init(int numFields, int * fieldSize);
+	void InitBuffer();
 protected:
 	int * FieldSize; // array to hold field sizes
 	int MaxFields; // maximum number of fields

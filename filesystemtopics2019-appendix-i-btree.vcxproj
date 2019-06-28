@@ -126,6 +126,8 @@
     <ClInclude Include="recfile.h" />
     <ClInclude Include="recording.h" />
     <ClInclude Include="simpind.h" />
+    <ClInclude Include="stack.h" />
+    <ClInclude Include="testbtree.h" />
     <ClInclude Include="varlen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

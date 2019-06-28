@@ -16,7 +16,7 @@ public:
 	int Read(RecType & record, int recaddr = -1);
 	int Write(const RecType & record, int recaddr = -1);
 	int Append(const RecType & record);
-	RecordFile(IOBuffer & buffer) : BufferFile(buffer) {}
+	RecordFile(IOBuffer & buffer) : BufferFile(buffer) {};
 };
 
 // template method bodies

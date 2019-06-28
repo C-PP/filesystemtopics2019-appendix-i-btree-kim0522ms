@@ -217,4 +217,11 @@ int FixedFieldBuffer::Init(int numFields, int * fieldSize)
 	return TRUE;
 }
 
-
+void FixedFieldBuffer::InitBuffer()
+{
+	int result = this->AddField(7);
+	result = result && this->AddField(30);
+	result = result && this->AddField(30);
+	result = result && this->AddField(30);
+	result = result && this->AddField(7);
+}
